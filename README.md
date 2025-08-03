@@ -7,7 +7,7 @@ This project is for **educational and penetration testing purposes only**.
 Do **NOT** use this tool on networks you do not own or have explicit permission to test.  
 Unauthorized use is **illegal** and punishable by law.
 
-## 📌 Description
+## 📌 Features
     - Intercepts HTTP requests for `.exe` files
     - Redirects downloads to a malicious URL
     - Allows specifying the malicious file URL via **command-line arguments**
