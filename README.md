@@ -2,16 +2,30 @@
 
 This tool intercepts HTTP requests for `.exe` files and replaces the download link with a malicious file URL of your choice.  
 
+---
+
 ## ⚠ Disclaimer
 This project is for **educational and penetration testing purposes only**.  
 Do **NOT** use this tool on networks you do not own or have explicit permission to test.  
 Unauthorized use is **illegal** and punishable by law.
 
+---
+
+## 🛠 Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Nozarhi-1/download-changer.git
+cd download-changer
+```
+---
 ## 📌 Features
     - Intercepts HTTP requests for `.exe` files
     - Redirects downloads to a malicious URL
     - Allows specifying the malicious file URL via **command-line arguments**
     - Can be adapted to replace other file types (e.g., `.zip`, `.pdf`)
+
+---
 
 ## 🚀 Usage:
 
@@ -31,6 +45,8 @@ Unauthorized use is **illegal** and punishable by law.
 4. Restore firewall rules after finishing:
 
         sudo iptables --flush
+
+---
 
 📂 Command-Line Options
 
